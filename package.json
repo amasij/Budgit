@@ -1,0 +1,26 @@
+{
+  "name": "Budgit",
+  "version": "1.0.0",
+  "description": "Accounting Software",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build":"electron-packager . Budgit"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Accounting",
+    "quick"
+  ],
+  "author": "BGT.ng",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^5.0.0",
+    "electron-builder": "^21.0.15"
+  },
+  "dependencies": {
+    "csv-writer": "^1.4.0",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1"
+  }
+}
